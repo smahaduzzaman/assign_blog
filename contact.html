@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <header>
         <div class="logo">
-            <img src="/assets/images/blog-site-logo.png" alt="blog site logo">
+            <img src="assets/images/blog-site-logo.png" alt="blog site logo">
         </div>
         <nav>
             <ul>
@@ -51,22 +51,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </header>
     <main>
         <section class="contact-form">
-            <h1 class="contact-title">Contact Us</h1>
-            <form action="/submit-form" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <div class="contact-us">
+                <img src="assets/images/contact-us.jpg" alt="Contact us image">
+                <form action="/submit-form" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" placeholder="Enter your subject" required>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter your subject" required>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Enter your message" style="height:200px" required></textarea>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" style="height:200px" required></textarea>
 
-                <input type="submit" value="Submit">
-            </form>
+                    <input type="submit" value="Submit">
+                    </form>
+            </div>
         </section>
         <footer>
             <p>&copy; 2023 Blog Site </p>

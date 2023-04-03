@@ -1,7 +1,14 @@
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+.contact-us img {
+    width: 50%;
+    height: 80%;
 }
 
 .contact-title {
@@ -11,7 +18,7 @@ body {
 }
 
 form {
-    background-color: #fff;
+    background-color: #BFBDAB;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -58,4 +65,14 @@ input[type=submit]:hover {
 
 section {
     margin: 20px 0;
+}
+/* media query for mobile view */
+@media (max-width: 768px) {
+    .contact-us {
+        flex-direction: column;
+    }
+
+    .contact-us img {
+        margin-bottom: 20px;
+    }
 }
