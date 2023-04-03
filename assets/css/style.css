@@ -34,12 +34,12 @@ nav li {
 }
 
 nav a {
-	color: #b36e41;
+	color: #fff;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #f19b62;
+	color: #E14761;
 }
 
 /* Media Query for Mobile View */
