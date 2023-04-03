@@ -118,6 +118,9 @@ nav a:hover {
 	border-radius: 5px;
 }
 
+.post-excerpt a:hover {
+	background-color: #E14761;
+}
 footer {
 	background-color: #333;
 	color: #fff;
