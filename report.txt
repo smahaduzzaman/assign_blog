@@ -1,0 +1,19 @@
+Report This Project In Details
+
+    This is a blob site project. 
+    I have used HTML, CSS, and JavaScript to create this project. 
+    I have used the following language in this project:
+
+    1. HTML
+    2. CSS
+    3. PHP
+
+    I have used the following features in this project:
+    1. Feature Post
+    2. Latest Post
+    3. Contact Form
+    4. Responsive Design
+    5. Blog Post
+    6. Blog Post Details
+
+
